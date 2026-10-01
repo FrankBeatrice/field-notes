@@ -1,8 +1,8 @@
 title: "FIELD NOTES"
 description: "Essays, fiction, notes, and unfinished thoughts."
 author: "Frank Beatrice III"
-url: ""
-baseurl: ""
+url: "https://frankbeatrice.github.io"
+baseurl: "/field-notes"
 markdown: kramdown
 permalink: /writing/:title/
 future: true
