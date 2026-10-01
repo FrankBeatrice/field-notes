@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /writing/
+title: Writing
+---
+<section class="listing-page">
+  <header class="listing-header">
+    <p class="eyebrow">THE WORK</p>
+    <h1>Writing</h1>
+    <p>Essays, stories, fragments, and notes. Newest first.</p>
+  </header>
+  <div class="listing-rule"></div>
+  {% for post in site.posts %}
+    <article class="archive-row">
+      <p class="archive-date">{{ post.date | date: '%Y · %m · %d' }}</p>
+      <div>
+        <a href="{{ post.url | relative_url }}"><h2>{{ post.title }}</h2></a>
+        {% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}
+      </div>
+      <p class="archive-category">{{ post.category | default: 'Writing' }}</p>
+    </article>
+  {% endfor %}
+</section>

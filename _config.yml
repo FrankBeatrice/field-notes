@@ -1,0 +1,25 @@
+title: "FIELD NOTES"
+description: "Essays, fiction, notes, and unfinished thoughts."
+author: "Frank Beatrice III"
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /writing/:title/
+future: true
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: Writing
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - templates
+  - _drafts

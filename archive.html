@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /archive/
+title: Archive
+---
+<section class="listing-page">
+  <header class="listing-header">
+    <p class="eyebrow">INDEX</p>
+    <h1>Archive</h1>
+  </header>
+  <div class="archive-index">
+    {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in postsByYear %}
+      <section>
+        <h2>{{ year.name }}</h2>
+        {% for post in year.items %}
+          <p><span>{{ post.date | date: '%b %d' }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </div>
+</section>

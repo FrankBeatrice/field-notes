@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<section class="cover-grid">
+  <div class="masthead-block">
+    <p class="issue">A WRITER'S NOTEBOOK · VOL. 01</p>
+    <h1>FIELD<br>NOTES</h1>
+  </div>
+
+  <div class="gold-disc" aria-hidden="true"></div>
+  <div class="ink-panel" aria-hidden="true"></div>
+  <div class="magenta-panel" aria-hidden="true"></div>
+
+  <aside class="identity-card">
+    <div class="monogram">FB<br>III</div>
+    <p class="identity-name">Frank Beatrice III</p>
+    <p class="identity-copy">Essays, fiction, observations, and work in progress.</p>
+  </aside>
+
+  <section class="feature-panel">
+    {% assign latest = site.posts | first %}
+    <div class="feature-photo" role="img" aria-label="Abstract editorial landscape placeholder">
+      <div class="horizon"></div>
+      <div class="sun"></div>
+    </div>
+    {% if latest %}
+    <a class="feature-copy" href="{{ latest.url | relative_url }}">
+      <span>Latest</span>
+      <h2>{{ latest.title }}</h2>
+      <p>{{ latest.excerpt | strip_html | truncatewords: 24 }}</p>
+    </a>
+    {% endif %}
+  </section>
+
+  <div class="taxonomy">
+    <span>FICTION</span>
+    <span>ESSAYS</span>
+    <span>NOTES</span>
+    <span>CONVERSATION</span>
+  </div>
+
+  <section class="latest-list">
+    <p class="section-kicker">RECENT WORK</p>
+    {% for post in site.posts limit:4 %}
+      <article class="story-row">
+        <p class="story-meta">{{ post.date | date: '%m.%d.%Y' }}</p>
+        <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
+        <p>{{ post.subtitle | default: post.excerpt | strip_html | truncatewords: 18 }}</p>
+      </article>
+    {% endfor %}
+  </section>
+</section>
