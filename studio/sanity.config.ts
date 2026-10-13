@@ -2,10 +2,9 @@ import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {postType} from './schemaTypes/postType'
 
-const projectId = process.env.SANITY_STUDIO_PROJECT_ID
-if (!projectId || projectId === 'replace-with-your-project-id') {
-  throw new Error('Set SANITY_STUDIO_PROJECT_ID in studio/.env to your Sanity project ID')
-}
+// Sanity project IDs are public identifiers, not secrets.
+// studio/.env can override this if moving the Studio to a different project.
+const projectId = process.env.SANITY_STUDIO_PROJECT_ID || 'bu13olof'
 
 export default defineConfig({
   name: 'field-notes',

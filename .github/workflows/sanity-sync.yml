@@ -1,21 +1,25 @@
-name: Publish Sanity posts
+name: Publish Field Notes
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: '*/15 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: field-notes-sanity-sync
+  group: field-notes-pages
   cancel-in-progress: false
 
 jobs:
-  publish:
-    if: ${{ vars.SANITY_PROJECT_ID != '' }}
+  build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.changes.outputs.should_deploy }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,15 +27,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Test Sanity content conversion
+      - name: Test content conversion
         run: node --test scripts/sync-sanity.test.mjs
-      - name: Sync published Sanity documents
+      - name: Retrieve published Sanity posts
+        if: github.event_name != 'push'
         env:
-          SANITY_PROJECT_ID: ${{ vars.SANITY_PROJECT_ID }}
-          SANITY_DATASET: ${{ vars.SANITY_DATASET }}
+          SANITY_PROJECT_ID: bu13olof
+          SANITY_DATASET: ${{ vars.SANITY_DATASET || 'production' }}
           SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
         run: node scripts/sync-sanity.mjs
-      - name: Commit changed posts for GitHub Pages
+      - name: Commit new or updated posts
+        id: changes
+        shell: bash
         run: |
           git add _posts/
           if ! git diff --cached --quiet; then
@@ -39,4 +46,37 @@ jobs:
                 -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
                 commit -m "Publish posts from Sanity"
             git push
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          elif [ "$GITHUB_EVENT_NAME" = "push" ] || [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
           fi
+      - name: Configure GitHub Pages
+        if: steps.changes.outputs.should_deploy == 'true'
+        uses: actions/configure-pages@v5
+      - name: Build Jekyll
+        if: steps.changes.outputs.should_deploy == 'true'
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload Pages artifact
+        if: steps.changes.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v4
+
+  deploy:
+    if: needs.build.outputs.should_deploy == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Field Notes
+        id: deployment
+        uses: actions/deploy-pages@v4

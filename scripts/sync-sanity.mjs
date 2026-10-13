@@ -72,10 +72,11 @@ export async function publishPosts(posts, directory = postDir) {
 }
 
 async function main() {
-  const project = process.env.SANITY_PROJECT_ID
+  // The project ID is public. A private dataset still needs a read-only token.
+  const project = process.env.SANITY_PROJECT_ID || 'bu13olof'
   const dataset = process.env.SANITY_DATASET || 'production'
-  if (!/^[a-z0-9-]+$/.test(project || '') || !/^[a-z0-9_-]+$/.test(dataset)) {
-    throw new Error('Configure SANITY_PROJECT_ID and SANITY_DATASET GitHub repository variables')
+  if (!/^[a-z0-9-]+$/.test(project) || !/^[a-z0-9_-]+$/.test(dataset)) {
+    throw new Error('Invalid SANITY_PROJECT_ID or SANITY_DATASET configuration')
   }
   const query = '*[_type == "post" && defined(title) && defined(slug.current) && defined(publishedAt)] | order(publishedAt asc) {_id,title,subtitle,category,publishedAt,"slug":slug.current,body[]{...,"assetUrl":asset->url}}'
   const url = new URL('https://' + project + '.api.sanity.io/v2025-02-19/data/query/' + dataset)
