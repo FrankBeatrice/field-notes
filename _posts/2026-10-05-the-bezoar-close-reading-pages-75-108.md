@@ -1,222 +1,303 @@
 ---
-title: "The Bezoar — Close Reading, pp. 75–108"
-subtitle: "Ambroise Paré on evidence, authority, cruelty, and what happens when belief is forced to meet a body."
+title: "Bezoar — Close Reading, pp. 75–108"
+subtitle: "Compulsion, self-inflicted harm, female interiority, and the thin line between control and collapse."
 category: Notes
 ---
-Ambroise Paré’s account of the bezoar is strange because it reads at once like medicine, courtroom drama, and moral horror.
+Guadalupe Nettel’s *Bezoar* is less about madness than about the logic a person builds when ordinary cures stop working.
 
-The object itself is almost secondary.
+The narrator knows she is not behaving normally.
 
-What matters is what people are willing to believe about it — and what they are willing to do to prove that belief wrong.
+That is what makes her compelling.
 
-## The bezoar is really a test of authority
+She names her own “compulsive tendencies.” She knows the doctor wants to classify them. She knows she is hurting herself. She understands that other people may see her behavior as irrational.
 
-The bezoar arrives with prestige already attached to it.
+But inside her own mind, the behavior still has structure.
 
-It is rare. Foreign. Expensive. Recommended by men close to power.
+That is where the story becomes uncomfortable.
 
-That matters because Paré is not simply arguing against a medical claim. He is arguing against **status masquerading as evidence**.
+## “Another supposed cure-all I had to contend with was the bezoar stone”
 
-The logic surrounding the stone is essentially:
+The bezoar matters because it promises something impossible:
 
-important people believe in it, therefore it must work.
+a universal antidote.
 
-Paré’s skepticism cuts through that immediately. Different poisons act differently. A universal antidote does not make much sense if the causes of harm are different.
+One object that can neutralize poison.
 
-That feels surprisingly modern.
+That idea mirrors the narrator’s entire life.
 
-Before the experiment even begins, Paré is already asking the better question:
+She keeps searching for her own cure-all:
 
-**What mechanism would make this claim true?**
+hair pulling.  
+drugs.  
+sex.  
+Victor.  
+the clinic.  
+isolation.  
+distance.
 
-## Evidence beats reputation
+Each one works for a moment.
 
-Paré’s instinct is empirical.
+None of them cures the underlying need.
 
-Do not ask who endorses the stone.
+The bezoar becomes less a literal object than a model for the way she thinks:
 
-Test it.
+**there must be something that will finally make this stop.**
 
-The bezoar therefore becomes part of a larger conflict between inherited knowledge and observed reality.
+## “Inflict on myself”
 
-The stone carries centuries of reputation. The poisoned body gives one brutal answer.
+The violence begins inward.
 
-The interesting part is that the experiment does not merely weaken the belief. It collapses the authority behind it.
+That matters.
 
-One dead man becomes more persuasive than generations of claims.
+The narrator is not introduced as someone who wants to harm others. She is someone who has learned to turn pressure against her own body.
 
-## But the experiment is morally contaminated
+She pulls out her hair.
 
-Paré looks modern when he demands evidence.
+She consumes it.
 
-He looks much less modern in how that evidence is obtained.
+She marks herself through repetition.
 
-A condemned cook is offered an apparent choice:
+The phrase “inflict on myself” is important because it shows awareness.
 
-die by hanging, or risk poison and possibly go free.
+She is not describing an accident.
 
-Technically, he consents.
+She recognizes herself as both the person suffering and the person causing the suffering.
 
-But what kind of consent exists when both alternatives begin with a death sentence?
+That split is central to the story.
 
-The experiment may be scientifically skeptical while still being ethically grotesque.
+She is victim and aggressor at the same time.
 
-That tension is probably the most interesting thing in the reading.
+## “Compulsive tendencies”
 
-**Good methodology does not automatically make a good experiment.**
+Calling them “compulsive tendencies” sounds clinical and almost harmless.
 
-## The condemned man becomes data
+The phrase creates distance.
 
-The cook begins as a person with a crime, a sentence, fear, and a desire to survive.
+It makes the behavior sound manageable, measurable, something that can be placed in a file.
 
-Once the trial begins, his body becomes evidence.
+But the lived experience is much messier.
 
-His vomiting, burning, bleeding, movements, and eventual death are observed almost as measurements.
+The narrator’s compulsions are not side effects of her personality.
 
-That shift is disturbing.
+They organize her world.
 
-The closer Paré looks medically, the easier it becomes for the reader to notice the distance between observer and subject.
+She feels pressure.
 
-The body is being read.
+She performs the ritual.
 
-The person inside it is disappearing.
+The pressure decreases.
 
-## The body settles the argument
+Then it returns.
 
-The story is filled with competing voices:
+That cycle becomes its own logic.
 
-the gentleman who believes in the bezoar;  
-the king who wants the claim tested;  
-Paré who doubts it;  
-the apothecary who administers the poison;  
-the prisoner who agrees because he wants to live.
+From the outside it looks irrational.
 
-Then the body gives the final answer.
+From the inside, it works just enough to be repeated.
 
-It burns.
+## “Much less try to cure”
 
-It bleeds.
+There is a difference between understanding a behavior and curing it.
 
-It dies.
+The story keeps exposing that gap.
 
-Paré later opens the body and reads the damage internally as further proof.
+The narrator can observe herself with remarkable precision.
 
-The structure is almost courtroom-like.
+She can describe what she does.
 
-Claim.  
-Challenge.  
-Experiment.  
-Evidence.  
-Verdict.
+She can anticipate judgment.
 
-The body is both witness and exhibit.
+She can identify patterns.
 
-## “Like a beast”
+But self-awareness does not equal control.
 
-One of the ugliest and most revealing details is the way the poisoned man is described on the ground, moving “like a beast.”
+That is one of the most unsettling things in the story.
 
-The phrase communicates the violence of the poison, but it also strips him of humanity at the precise moment when he is suffering most.
+She understands herself.
 
-That is worth noticing.
+She still cannot stop.
 
-Medical observation can create knowledge while also turning a human being into an object.
+The implication is that sanity may not depend simply on knowing what is happening.
 
-Paré may be describing what he sees accurately, but description itself is not neutral.
+You can know exactly what you are doing and still be unable to interrupt it.
 
-Who gets to remain a person in the narrative?
+## The “isolated Eden”
 
-Who becomes a specimen?
+The phrase “isolated Eden” is almost contradictory.
 
-## Power makes the experiment possible
+Eden should mean safety.
 
-The experiment could not happen without hierarchy.
+Isolation should mean protection.
 
-A king wants an answer.
+But the narrator’s isolation does not cure her.
 
-A condemned man has almost no bargaining power.
+It only changes the environment in which the compulsion operates.
 
-A physician has access to the body.
+That is important because she repeatedly imagines that if the world around her were arranged correctly, she might finally become calm.
 
-An apothecary has access to poison.
+A better place.
 
-The entire scene is powered by institutions.
+A better relationship.
 
-This makes the bezoar more than a story about superstition versus science.
+A better treatment.
 
-It is also about **who bears the cost when powerful people want certainty**.
+A better distance.
 
-The king gets knowledge.
+But the problem follows her.
 
-Paré gets evidence.
+The “Eden” is never really outside.
 
-The prisoner gets seven hours of agony.
+The thing she is trying to escape is carried inside her.
 
-## Paré’s skepticism has limits
+## The “two-faced little girl”
 
-Paré deserves credit for refusing to accept a universal cure simply because others believed in it.
+The “two-faced little girl” image feels like one of the clearest expressions of divided identity.
 
-But the text also shows a contradiction.
+There is the self presented to other people.
 
-He questions the authority of the stone more aggressively than he questions the authority of the social system surrounding the experiment.
+Then there is the private self governed by urges, rituals, and thoughts she cannot fully reconcile with that exterior.
 
-He can ask:
+“Two-faced” usually suggests dishonesty.
 
-**Does the bezoar work?**
+Here it feels closer to fragmentation.
 
-But he does not seem equally interested in asking:
+She is not necessarily lying.
 
-**Should this man be used to find out?**
+She is living in two realities at once:
 
-That difference matters.
+the social world where behavior has recognizable rules,
 
-Critical thinking can be narrow.
+and the private world where relief matters more than those rules.
 
-A person can challenge one assumption while remaining completely inside another.
+That division makes her frighteningly lucid.
 
-## The stone survives because people want it to work
+She can move between both.
 
-The deeper subject may not be the bezoar at all.
+## “Close to the Sea”
 
-It may be our desire for universal solutions.
+The sea matters because it is a boundary that does not look like one.
 
-A single object that defeats every poison is attractive because it simplifies fear.
+Land simply ends.
 
-Instead of understanding dozens of poisons, causes, symptoms, and treatments, one can possess the right stone.
+Then there is depth.
 
-The bezoar sells certainty.
+The narrator’s mental state works the same way.
 
-Paré’s experiment destroys that certainty.
+There is no obvious wall between control and collapse.
 
-This is why the reading feels larger than sixteenth-century medicine.
+No clean moment when she becomes a different person.
 
-Humans still want one explanation, one cure, one model, one expert, one object that removes uncertainty.
+She moves gradually toward the edge.
+
+That makes the sea the perfect setting for the final violence.
+
+It is open, beautiful, calm.
+
+And potentially fatal.
+
+The danger is not hidden.
+
+It is simply easy to look past.
+
+## Victor as mirror
+
+Victor understands her because he has his own compulsions.
+
+At first, that similarity creates intimacy.
+
+Eventually it becomes unbearable.
+
+He reflects too much back at her.
+
+His behavior makes her see her own.
+
+The person who understands her best becomes the person she most needs to escape.
+
+That is where love turns into surveillance.
+
+Each becomes evidence of the other’s disorder.
+
+## Murder and self-destruction begin to merge
+
+The threat of murder at the end does not feel separate from the self-inflicted harm that came before it.
+
+The direction changes.
+
+The logic does not.
+
+For most of the story, the body under attack is her own.
+
+Near the end, Victor becomes another possible site of removal.
+
+If he is part of the pressure, eliminating him begins to resemble eliminating a symptom.
+
+That is horrifying precisely because we can follow the reasoning.
+
+Not agree with it.
+
+Follow it.
+
+And that may be the sharpest line the story draws between sanity and collapse.
+
+## How someone in that state sees the world
+
+The narrator does not divide the world into rational and irrational.
+
+She divides it into:
+
+**what increases the pressure**  
+and  
+**what releases it.**
+
+That is the private system underneath the story.
+
+Hair pulling releases it.
+
+Drugs release it.
+
+Victor releases it.
+
+Then Victor causes it.
+
+Isolation promises to release it.
+
+The sea promises final release.
+
+Once that system becomes visible, the ending stops looking random.
+
+It becomes the end point of a logic that has been tightening for the entire story.
 
 ## What I would underline
 
-**Authority is not evidence.**  
-The prestige surrounding the bezoar is part of what Paré is really testing.
+**“Another supposed cure-all I had to contend with was the bezoar stone.”**  
+The narrator keeps searching for a single thing that can neutralize everything inside her.
 
-**Paré thinks mechanistically.**  
-Different poisons have different effects, so one universal antidote immediately deserves skepticism.
+**“Inflict on myself.”**  
+The violence begins inward before it ever turns outward.
 
-**The experiment is scientifically useful and ethically disturbing at the same time.**  
-Those two judgments do not cancel each other out.
+**“Compulsive tendencies.”**  
+Clinical language makes the behavior sound smaller than the experience itself.
 
-**The prisoner’s body becomes the argument.**  
-His suffering supplies the evidence that theory and reputation could not.
+**“Much less try to cure.”**  
+Understanding yourself is not the same thing as being able to stop yourself.
 
-**Power determines who gets experimented on.**  
-The people seeking knowledge are not the people absorbing the risk.
+**“Isolated Eden.”**  
+Changing the environment cannot remove something carried internally.
 
-**Skepticism can still have blind spots.**  
-Paré questions medical authority while barely questioning the structure that lets him use a condemned man as proof.
+**“Two-faced little girl.”**  
+The narrator lives between the face presented to the world and the private logic of compulsion.
+
+**“Close to the Sea.”**  
+The edge between control and destruction is not a wall. It is a shoreline.
 
 ## Question to carry forward
 
-The reading leaves me with a question that feels bigger than the bezoar:
+> If someone understands that her behavior is irrational, but the behavior still feels internally necessary, where does sanity actually end?
 
-> If an experiment produces true knowledge through an unjust process, what exactly have we learned?
+Nettel never gives us a clean answer.
 
-Paré proves that the stone cannot be trusted.
+That is the point.
 
-He also unintentionally shows that evidence itself can have a human cost.
+The narrator is not frightening because she is impossible to understand.
+
+She is frightening because, from inside her mind, we can understand too much.
