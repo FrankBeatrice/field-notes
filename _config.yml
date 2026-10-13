@@ -23,3 +23,6 @@ exclude:
   - Gemfile.lock
   - templates
   - _drafts
+  - scripts
+  - studio
+  - node_modules
